@@ -1,0 +1,30 @@
+.box {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.fumaca {
+    animation: subirFumaca 0.8s ease-in-out infinite alternate;
+}
+
+.porcent {
+    animation: subirPorcent 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes subirFumaca {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(5px);
+    }
+}
+
+@keyframes subirPorcent {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(6px);
+    }
+}
