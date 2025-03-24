@@ -19,7 +19,7 @@ export default function Home() {
         </div>
         <div className="px-2 mt-2 pb-2 w-full max-w-[500px]">
           <Cupom porcent="10" name="Chopp Burgman" description="esse é um cupom comum para que os consumidores possam estar aproveitando da melhor forma as igrarias dos estabelecimentos" />
-          <Cupom porcent="5" name="To a Tôa" description="aproveite da melhor forma as iguarias do estabelecimentos" />
+          <Cupom porcent="5" name="To a Tôa" description="aproveite da melhor forma as iguarias do estabelecimento" />
         </div>
       
       </div>
